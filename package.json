@@ -1,0 +1,20 @@
+{
+  "name": "ejemplo_nintendo_tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss ./src/tailwind.css -o ./public/css/styles.css",
+    "build": "NODE_ENV=production postcss ./src/tailwind.css -o ./public/css/styles.css"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.3.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.14"
+  }
+}
